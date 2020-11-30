@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+    font-family: Akayla;
+    src: url(custom-fonts/akayla-script/AkaylaScript_PERSONAL.ttf);
+  }
+
+@font-face {
+    font-family: Adine;
+    src: url(custom-fonts/adine-kirnberg/Adine\ Kirnberg.ttf);
+  }
+
+@font-face {
+    font-family: Dora;
+    src: url(custom-fonts/akadora/akaDora.ttf);
+  }
+
+  @font-face {
+    font-family: Angilla;
+    src: url(custom-fonts/angilla-script-personal-use/AngillaScript_PERSONAL_USE_ONLY.ttf);
+  }
+
+  @font-face {
+    font-family: Ankora;
+    src: url(custom-fonts/ankora/ANKOR___.ttf);
+  }
+
+  @font-face {
+    font-family: Bellino;
+    src: url(custom-fonts/bellino-personal-use-only/Bellino_PERSONAL_USE_ONLY.ttf);
+  }
+
+  @font-face {
+    font-family: Congrats;
+    src: url(custom-fonts/congrats-calligraphy/Congrats\ Calligraphy\ -\ TTF.ttf);
+  }
+
+  @font-face {
+    font-family: Forgiven;
+    src: url(custom-fonts/forgiven-script/Forgiven\ Script\ -\ TTF.ttf);
+  }
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+  color: rgb(204, 229, 250);
+  font-family: Ankora;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Iceland', cursive;;
+}
+
+h3 {
+    font-size: 28px;
+    font-family: Ankora;
+}
+
+h4 {
+    font-family: 'Iceland', cursive;
+    font-size: 25px;
+}
+
+.tag {
+    font-family: 'Iceland', cursive;
+    font-size: 25px;
+}
+
+.contact {
+    font-size: ;
+}
+
+header {
+    border: black solid 1px;
+    padding: 15px;
+    background-color: rgb(73, 73, 73);
+}
+
+main {
+    background-color: rgb(204, 229, 250);
+}
+
+section {
+    margin: 5px 15px;
+    padding: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.main-flex {
+    display: flex;
+    flex-direction: column;
+}
+.work-item, .edu-item {
+    margin: 5px 0px;
+}
+
+@media screen and (min-width: 600px){
+    .main-flex {
+        display: flex;
+        flex-direction: row;
+    }
+}
+

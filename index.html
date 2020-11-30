@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="application-root"></div>
+
+
+
+<script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+<!-- <script type="text/babel" >
+    // Our code will go here
+    const appRoot = document.querySelector('#application-root');
+    const instance1 = <h1>Hello, world!</h1>;
+const instance2 = <h1>Hello, world!</h1>;
+const instance3 = <h1>Hello, world!</h1>;
+
+/* 
+These also work to define appRoot
+    document.querySelector('#application-root');
+    document.querySelector('div#application-root');
+    document.querySelector('div');
+*/
+
+const helloWorldH1 = <h1>Hello, world!</h1>;
+
+
+ReactDOM.render(helloWorldH1, appRoot);
+</script> -->
+
+<script type="text/babel">
+function App(props) {
+  return (
+    <div>
+        <header>
+          <h1>Sally Doe</h1>
+          <h2>A Proffesional Web Developer</h2>
+        </header>
+        <main className="main-flex">
+            
+            <section id="contact">
+                <img src="https://ia.media-imdb.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_UX214_CR0,0,214,317_AL_.jpg" alt="photo failed to load" />
+                <h3>Sally Doe</h3>
+                <p className="flex tag">Email: </p><p className="contact"><a href="mailto://sally@IntenetExplorer.old">sally@IntenetExplorer.old</a></p>
+                <p className="flex tag">Cell: </p><p className="contact"><a href="tel:+34100572415">xxx-xxx-xxxx</a></p>
+            </section>
+
+            <div>
+                <section id="education">
+                    <h3>Education</h3>
+    
+                    <div class="edu-item">
+                        <h4>Master's Degree</h4>
+                        <p><strong>Software Engineering</strong></p>
+                        <p>Prestigious University</p> 
+                        <p><em>Class of 2018</em></p>
+                    </div>
+    
+                    <div class="edu-item">
+                        <h4>Bachelor's Degree</h4>
+                        <p><strong>Graphic Design</strong></p>
+                        <p>Prestigious University</p> 
+                        <p><em>Class of 2014</em></p>
+                    </div>
+    
+                    <div class="edu-item">
+                        <h4>Associates Degree</h4>
+                        <p><strong>Business Management</strong></p>
+                        <p>Prestigious University</p> 
+                        <p><em>Class of 2012</em></p>
+                    </div>
+                </section>
+    
+                <section id="employment">
+                    <h3>Work History</h3>
+    
+                    <div class="work-item">
+                        <h4>Fake Software Company</h4>
+                        <p><strong>Senior Fullstack Engineer</strong></p>
+                        <p><em>2018 - present</em></p>
+                        <p>Overseeing multiple development projects and assisting in the creation and implementation of new softwares and features.</p> 
+                    </div>
+    
+                    <div class="work-item">
+                        <h4>Random Incorporated LLC</h4>
+                        <p><strong>Junior Developer</strong></p>
+                        <p><em>2014 - 2018</em></p>
+                        <p>Assisting in the creation and implementation of new softwaresand features.</p> 
+                    </div>
+    
+                    <div class="work-item">
+                        <h4>Java Hut</h4>
+                        <p><strong>General Manager</strong></p>
+                        <p><em>2012 - 2014</em></p>
+                        <p>Managing the store and employees. Keeping track of inventory and implementing all policy changes handed down by superiors.</p> 
+                    </div>
+    
+                </section>
+            </div>
+        </main>
+    </div>
+  );
+}
+
+// Nested elements inside the App
+ReactDOM.render(
+  <App className='my-class'>
+  </App>,
+  document.querySelector('#application-root')
+);
+</script>
+</body>
+</html>
